@@ -1,0 +1,18 @@
+{
+  "settings": {
+    "index.number_of_shards": 5,
+    "index.number_of_replicas": 0,
+    "index.queries.cache.enabled": false,
+    "index.requests.cache.enable": false
+  },
+  "mappings": {
+    "properties": {
+      "id": {
+        "type": "long"
+      },
+      "name": {
+        "type": "keyword"
+      }
+    }
+  }
+}
